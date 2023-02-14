@@ -1,0 +1,21 @@
+_id: req_051bd43f123f4fdd817ebbde4ae8295f
+type: Request
+parentId: wrk_d3c8177e350240b682c2d7a18779b9ad
+modified: 1676379869733
+created: 1676379869733
+url: mockbin.org/request/an
+name: New Request103
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1666867417230.9763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

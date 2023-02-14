@@ -1,8 +1,6025 @@
 _id: spc_fd7224e09a3d447da7468e4b9318545c
 type: ApiSpec
 parentId: wrk_d3c8177e350240b682c2d7a18779b9ad
-modified: 1676379527873
-created: 1676379527873
+modified: 1676380384840
+created: 1676380022668
 fileName: my-spec.yaml
-contents: ""
+contents: >-
+  openapi: 3.0.0
+
+  info:
+    description: "This is a sample server Petstore server.  You can find out more about
+      Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net,
+      #swagger](http://swagger.io/irc/).  For this sample, you can use the api key
+      `special-key` to test the authorization filters."
+    version: 1.0.2
+    title: Swagger Petstore
+    termsOfService: http://swagger.io/terms/
+    contact:
+      email: apiteam@swagger.io
+    license:
+      name: Apache 2.0
+      url: http://www.apache.org/licenses/LICENSE-2.0.html
+  tags:
+    - name: pet
+      description: Everything about your Pets
+      externalDocs:
+        description: Find out more
+        url: http://swagger.io
+    - name: store
+      description: Access to Petstore orders
+    - name: user
+      description: Operations about user
+      externalDocs:
+        description: Find out more about our store
+        url: http://swagger.io
+  paths:
+    /pet1:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet1
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input1
+    /pet2:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet2
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input2
+    /pet3:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet3
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input3
+    /pet4:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet4
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input4
+    /pet5:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet5
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input5
+    /pet6:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet6
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input6
+    /pet7:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet7
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input7
+    /pet8:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet8
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input8
+    /pet9:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet9
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input9
+    /pet10:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet10
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input10
+    /pet11:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet11
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input11
+    /pet12:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet12
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input12
+    /pet13:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet13
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input13
+    /pet14:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet14
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input14
+    /pet15:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet15
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input15
+    /pet16:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet16
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input16
+    /pet17:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet17
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input17
+    /pet18:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet18
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input18
+    /pet19:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet19
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input19
+    /pet20:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet20
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input20
+    /pet21:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet21
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input21
+    /pet22:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet22
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input22
+    /pet23:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet23
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input23
+    /pet24:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet24
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input24
+    /pet25:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet25
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input25
+    /pet26:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet26
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input26
+    /pet27:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet27
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input27
+    /pet28:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet28
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input28
+    /pet29:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet29
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input29
+    /pet30:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet30
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input30
+    /pet31:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet31
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input31
+    /pet32:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet32
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input32
+    /pet33:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet33
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input33
+    /pet34:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet34
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input34
+    /pet35:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet35
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input35
+    /pet36:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet36
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input36
+    /pet37:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet37
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input37
+    /pet38:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet38
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input38
+    /pet39:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet39
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input39
+    /pet40:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet40
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input40
+    /pet41:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet41
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input41
+    /pet42:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet42
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input42
+    /pet43:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet43
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input43
+    /pet44:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet44
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input44
+    /pet45:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet45
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input45
+    /pet46:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet46
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input46
+    /pet47:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet47
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input47
+    /pet48:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet48
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input48
+    /pet49:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet49
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input49
+    /pet50:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet50
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input50
+    /pet51:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet51
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input51
+    /pet52:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet52
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input52
+    /pet53:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet53
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input53
+    /pet54:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet54
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input54
+    /pet55:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet55
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input55
+    /pet56:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet56
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input56
+    /pet57:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet57
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input57
+    /pet58:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet58
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input58
+    /pet59:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet59
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input59
+    /pet60:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet60
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input60
+    /pet61:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet61
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input61
+    /pet62:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet62
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input62
+    /pet63:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet63
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input63
+    /pet64:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet64
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input64
+    /pet65:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet65
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input65
+    /pet66:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet66
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input66
+    /pet67:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet67
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input67
+    /pet68:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet68
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input68
+    /pet69:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet69
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input69
+    /pet70:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet70
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input70
+    /pet71:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet71
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input71
+    /pet72:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet72
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input72
+    /pet73:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet73
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input73
+    /pet74:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet74
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input74
+    /pet75:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet75
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input75
+    /pet76:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet76
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input76
+    /pet77:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet77
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input77
+    /pet78:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet78
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input78
+    /pet79:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet79
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input79
+    /pet80:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet80
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input80
+    /pet81:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet81
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input81
+    /pet82:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet82
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input82
+    /pet83:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet83
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input83
+    /pet84:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet84
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input84
+    /pet85:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet85
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input85
+    /pet86:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet86
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input86
+    /pet87:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet87
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input87
+    /pet88:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet88
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input88
+    /pet89:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet89
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input89
+    /pet90:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet90
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input90
+    /pet91:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet91
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input91
+    /pet92:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet92
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input92
+    /pet93:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet93
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input93
+    /pet94:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet94
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input94
+    /pet95:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet95
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input95
+    /pet96:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet96
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input96
+    /pet97:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet97
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input97
+    /pet98:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet98
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input98
+    /pet99:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet99
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input99
+    /pet100:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet100
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input100
+    /pet101:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet101
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input101
+    /pet102:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet102
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input102
+    /pet103:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet103
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input103
+    /pet104:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet104
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input104
+    /pet105:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet105
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input105
+    /pet106:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet106
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input106
+    /pet107:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet107
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input107
+    /pet108:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet108
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input108
+    /pet109:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet109
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input109
+    /pet110:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet110
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input110
+    /pet111:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet111
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input111
+    /pet112:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet112
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input112
+    /pet113:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet113
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input113
+    /pet114:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet114
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input114
+    /pet115:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet115
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input115
+    /pet116:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet116
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input116
+    /pet117:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet117
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input117
+    /pet118:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet118
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input118
+    /pet119:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet119
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input119
+    /pet120:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet120
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input120
+    /pet121:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet121
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input121
+    /pet122:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet122
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input122
+    /pet123:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet123
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input123
+    /pet124:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet124
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input124
+    /pet125:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet125
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input125
+    /pet126:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet126
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input126
+    /pet127:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet127
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input127
+    /pet128:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet128
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input128
+    /pet129:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet129
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input129
+    /pet130:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet130
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input130
+    /pet131:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet131
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input131
+    /pet132:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet132
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input132
+    /pet133:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet133
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input133
+    /pet134:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet134
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input134
+    /pet135:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet135
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input135
+    /pet136:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet136
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input136
+    /pet137:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet137
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input137
+    /pet138:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet138
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input138
+    /pet139:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet139
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input139
+    /pet140:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet140
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input140
+    /pet141:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet141
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input141
+    /pet142:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet142
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input142
+    /pet143:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet143
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input143
+    /pet144:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet144
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input144
+    /pet145:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet145
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input145
+    /pet146:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet146
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input146
+    /pet147:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet147
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input147
+    /pet148:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet148
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input148
+    /pet149:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet149
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input149
+    /pet150:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet150
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input150
+    /pet151:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet151
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input151
+    /pet152:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet152
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input152
+    /pet153:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet153
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input153
+    /pet154:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet154
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input154
+    /pet155:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet155
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input155
+    /pet156:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet156
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input156
+    /pet157:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet157
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input157
+    /pet158:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet158
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input158
+    /pet159:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet159
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input159
+    /pet160:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet160
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input160
+    /pet161:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet161
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input161
+    /pet162:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet162
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input162
+    /pet163:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet163
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input163
+    /pet164:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet164
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input164
+    /pet165:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet165
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input165
+    /pet166:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet166
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input166
+    /pet167:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet167
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input167
+    /pet168:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet168
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input168
+    /pet169:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet169
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input169
+    /pet170:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet170
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input170
+    /pet171:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet171
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input171
+    /pet172:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet172
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input172
+    /pet173:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet173
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input173
+    /pet174:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet174
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input174
+    /pet175:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet175
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input175
+    /pet176:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet176
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input176
+    /pet177:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet177
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input177
+    /pet178:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet178
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input178
+    /pet179:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet179
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input179
+    /pet180:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet180
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input180
+    /pet181:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet181
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input181
+    /pet182:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet182
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input182
+    /pet183:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet183
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input183
+    /pet184:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet184
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input184
+    /pet185:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet185
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input185
+    /pet186:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet186
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input186
+    /pet187:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet187
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input187
+    /pet188:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet188
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input188
+    /pet189:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet189
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input189
+    /pet190:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet190
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input190
+    /pet191:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet191
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input191
+    /pet192:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet192
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input192
+    /pet193:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet193
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input193
+    /pet194:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet194
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input194
+    /pet195:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet195
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input195
+    /pet196:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet196
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input196
+    /pet197:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet197
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input197
+    /pet198:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet198
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input198
+    /pet199:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet199
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input199
+    /pet200:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet200
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input200
+    /pet201:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet201
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input201
+    /pet202:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet202
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input202
+    /pet203:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet203
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input203
+    /pet204:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet204
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input204
+    /pet205:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet205
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input205
+    /pet206:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet206
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input206
+    /pet207:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet207
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input207
+    /pet208:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet208
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input208
+    /pet209:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet209
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input209
+    /pet210:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet210
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input210
+    /pet211:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet211
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input211
+    /pet212:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet212
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input212
+    /pet213:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet213
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input213
+    /pet214:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet214
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input214
+    /pet215:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet215
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input215
+    /pet216:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet216
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input216
+    /pet217:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet217
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input217
+    /pet218:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet218
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input218
+    /pet219:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet219
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input219
+    /pet220:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet220
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input220
+    /pet221:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet221
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input221
+    /pet222:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet222
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input222
+    /pet223:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet223
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input223
+    /pet224:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet224
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input224
+    /pet225:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet225
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input225
+    /pet226:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet226
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input226
+    /pet227:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet227
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input227
+    /pet228:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet228
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input228
+    /pet229:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet229
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input229
+    /pet230:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet230
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input230
+    /pet231:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet231
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input231
+    /pet232:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet232
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input232
+    /pet233:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet233
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input233
+    /pet234:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet234
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input234
+    /pet235:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet235
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input235
+    /pet236:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet236
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input236
+    /pet237:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet237
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input237
+    /pet238:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet238
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input238
+    /pet239:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet239
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input239
+    /pet240:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet240
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input240
+    /pet241:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet241
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input241
+    /pet242:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet242
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input242
+    /pet243:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet243
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input243
+    /pet244:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet244
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input244
+    /pet245:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet245
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input245
+    /pet246:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet246
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input246
+    /pet247:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet247
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input247
+    /pet248:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet248
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input248
+    /pet249:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet249
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input249
+    /pet250:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet250
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input250
+    /pet251:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet251
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input251
+    /pet252:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet252
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input252
+    /pet253:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet253
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input253
+    /pet254:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet254
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input254
+    /pet255:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet255
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input255
+    /pet256:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet256
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input256
+    /pet257:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet257
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input257
+    /pet258:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet258
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input258
+    /pet259:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet259
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input259
+    /pet260:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet260
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input260
+    /pet261:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet261
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input261
+    /pet262:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet262
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input262
+    /pet263:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet263
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input263
+    /pet264:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet264
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input264
+    /pet265:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet265
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input265
+    /pet266:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet266
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input266
+    /pet267:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet267
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input267
+    /pet268:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet268
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input268
+    /pet269:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet269
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input269
+    /pet270:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet270
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input270
+    /pet271:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet271
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input271
+    /pet272:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet272
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input272
+    /pet273:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet273
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input273
+    /pet274:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet274
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input274
+    /pet275:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet275
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input275
+    /pet276:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet276
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input276
+    /pet277:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet277
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input277
+    /pet278:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet278
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input278
+    /pet279:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet279
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input279
+    /pet280:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet280
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input280
+    /pet281:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet281
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input281
+    /pet282:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet282
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input282
+    /pet283:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet283
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input283
+    /pet284:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet284
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input284
+    /pet285:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet285
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input285
+    /pet286:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet286
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input286
+    /pet287:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet287
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input287
+    /pet288:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet288
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input288
+    /pet289:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet289
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input289
+    /pet290:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet290
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input290
+    /pet291:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet291
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input291
+    /pet292:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet292
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input292
+    /pet293:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet293
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input293
+    /pet294:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet294
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input294
+    /pet295:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet295
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input295
+    /pet296:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet296
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input296
+    /pet297:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet297
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input297
+    /pet298:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet298
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input298
+    /pet299:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet299
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input299
+    /pet300:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet300
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input300
+    /pet301:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet301
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input301
+    /pet302:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet302
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input302
+    /pet303:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet303
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input303
+    /pet304:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet304
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input304
+    /pet305:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet305
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input305
+    /pet306:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet306
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input306
+    /pet307:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet307
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input307
+    /pet308:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet308
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input308
+    /pet309:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet309
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input309
+    /pet310:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet310
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input310
+    /pet311:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet311
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input311
+    /pet312:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet312
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input312
+    /pet313:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet313
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input313
+    /pet314:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet314
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input314
+    /pet315:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet315
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input315
+    /pet316:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet316
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input316
+    /pet317:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet317
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input317
+    /pet318:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet318
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input318
+    /pet319:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet319
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input319
+    /pet320:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet320
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input320
+    /pet321:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet321
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input321
+    /pet322:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet322
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input322
+    /pet323:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet323
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input323
+    /pet324:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet324
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input324
+    /pet325:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet325
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input325
+    /pet326:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet326
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input326
+    /pet327:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet327
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input327
+    /pet328:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet328
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input328
+    /pet329:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet329
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input329
+    /pet330:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet330
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input330
+    /pet331:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet331
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input331
+    /pet332:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet332
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input332
+    /pet333:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet333
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input333
+    /pet334:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet334
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input334
+    /pet335:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet335
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input335
+    /pet336:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet336
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input336
+    /pet337:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet337
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input337
+    /pet338:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet338
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input338
+    /pet339:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet339
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input339
+    /pet340:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet340
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input340
+    /pet341:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet341
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input341
+    /pet342:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet342
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input342
+    /pet343:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet343
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input343
+    /pet344:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet344
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input344
+    /pet345:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet345
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input345
+    /pet346:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet346
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input346
+    /pet347:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet347
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input347
+    /pet348:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet348
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input348
+    /pet349:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet349
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input349
+    /pet350:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet350
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input350
+    /pet351:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet351
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input351
+    /pet352:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet352
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input352
+    /pet353:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet353
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input353
+    /pet354:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet354
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input354
+    /pet355:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet355
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input355
+    /pet356:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet356
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input356
+    /pet357:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet357
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input357
+    /pet358:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet358
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input358
+    /pet359:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet359
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input359
+    /pet360:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet360
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input360
+    /pet361:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet361
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input361
+    /pet362:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet362
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input362
+    /pet363:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet363
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input363
+    /pet364:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet364
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input364
+    /pet365:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet365
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input365
+    /pet366:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet366
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input366
+    /pet367:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet367
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input367
+    /pet368:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet368
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input368
+    /pet369:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet369
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input369
+    /pet370:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet370
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input370
+    /pet371:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet371
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input371
+    /pet372:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet372
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input372
+    /pet373:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet373
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input373
+    /pet374:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet374
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input374
+    /pet375:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet375
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input375
+    /pet376:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet376
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input376
+    /pet377:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet377
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input377
+    /pet378:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet378
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input378
+    /pet379:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet379
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input379
+    /pet380:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet380
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input380
+    /pet381:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet381
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input381
+    /pet382:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet382
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input382
+    /pet383:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet383
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input383
+    /pet384:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet384
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input384
+    /pet385:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet385
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input385
+    /pet386:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet386
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input386
+    /pet387:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet387
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input387
+    /pet388:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet388
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input388
+    /pet389:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet389
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input389
+    /pet390:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet390
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input390
+    /pet391:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet391
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input391
+    /pet392:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet392
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input392
+    /pet393:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet393
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input393
+    /pet394:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet394
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input394
+    /pet395:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet395
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input395
+    /pet396:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet396
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input396
+    /pet397:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet397
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input397
+    /pet398:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet398
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input398
+    /pet399:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet399
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input399
+    /pet400:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet400
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input400
+    /pet401:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet401
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input401
+    /pet402:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet402
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input402
+    /pet403:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet403
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input403
+    /pet404:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet404
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input404
+    /pet405:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet405
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input405
+    /pet406:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet406
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input406
+    /pet407:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet407
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input407
+    /pet408:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet408
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input408
+    /pet409:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet409
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input409
+    /pet410:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet410
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input410
+    /pet411:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet411
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input411
+    /pet412:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet412
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input412
+    /pet413:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet413
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input413
+    /pet414:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet414
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input414
+    /pet415:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet415
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input415
+    /pet416:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet416
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input416
+    /pet417:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet417
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input417
+    /pet418:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet418
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input418
+    /pet419:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet419
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input419
+    /pet420:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet420
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input420
+    /pet421:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet421
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input421
+    /pet422:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet422
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input422
+    /pet423:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet423
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input423
+    /pet424:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet424
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input424
+    /pet425:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet425
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input425
+    /pet426:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet426
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input426
+    /pet427:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet427
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input427
+    /pet428:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet428
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input428
+    /pet429:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet429
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input429
+    /pet430:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet430
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input430
+    /pet431:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet431
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input431
+    /pet432:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet432
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input432
+    /pet433:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet433
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input433
+    /pet434:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet434
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input434
+    /pet435:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet435
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input435
+    /pet436:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet436
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input436
+    /pet437:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet437
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input437
+    /pet438:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet438
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input438
+    /pet439:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet439
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input439
+    /pet440:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet440
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input440
+    /pet441:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet441
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input441
+    /pet442:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet442
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input442
+    /pet443:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet443
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input443
+    /pet444:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet444
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input444
+    /pet445:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet445
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input445
+    /pet446:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet446
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input446
+    /pet447:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet447
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input447
+    /pet448:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet448
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input448
+    /pet449:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet449
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input449
+    /pet450:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet450
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input450
+    /pet:
+      post:
+        tags:
+          - pet
+        summary: Add a new pet to the store
+        description: ""
+        operationId: addPet
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "405":
+            description: Invalid input
+      put:
+        tags:
+          - pet
+        summary: Update an existing pet
+        description: ""
+        operationId: updatePet
+        requestBody:
+          $ref: "#/components/requestBodies/Pet"
+        responses:
+          "400":
+            description: Invalid ID supplied
+          "404":
+            description: Pet not found
+          "405":
+            description: Validation exception
+    /pet/findByStatus:
+      get:
+        tags:
+          - pet
+        summary: Finds Pets by status
+        description: Multiple status values can be provided with comma separated strings
+        operationId: findPetsByStatus
+        parameters:
+          - name: status
+            in: query
+            description: Status values that need to be considered for filter
+            required: true
+            explode: true
+            schema:
+              type: array
+              items:
+                type: string
+                enum:
+                  - available
+                  - pending
+                  - sold
+                default: available
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/xml:
+                schema:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/Pet"
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/Pet"
+          "400":
+            description: Invalid status value
+    /pet/findByTags:
+      get:
+        tags:
+          - pet
+        summary: Finds Pets by tags
+        description: Multiple tags can be provided with comma separated strings. Use tag1,
+          tag2, tag3 for testing.
+        operationId: findPetsByTags
+        parameters:
+          - name: tags
+            in: query
+            description: Tags to filter by
+            required: true
+            explode: true
+            schema:
+              type: array
+              items:
+                type: string
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/xml:
+                schema:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/Pet"
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/Pet"
+          "400":
+            description: Invalid tag value
+        deprecated: true
+    "/pet/{petId}":
+      get:
+        tags:
+          - pet
+        summary: Find pet by ID
+        description: Returns a single pet
+        operationId: getPetById
+        parameters:
+          - name: petId
+            in: path
+            description: ID of pet to return
+            required: true
+            schema:
+              type: integer
+              format: int64
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/xml:
+                schema:
+                  $ref: "#/components/schemas/Pet"
+              application/json:
+                schema:
+                  $ref: "#/components/schemas/Pet"
+          "400":
+            description: Invalid ID supplied
+          "404":
+            description: Pet not found
+      post:
+        tags:
+          - pet
+        summary: Updates a pet in the store with form data
+        description: ""
+        operationId: updatePetWithForm
+        parameters:
+          - name: petId
+            in: path
+            description: ID of pet that needs to be updated
+            required: true
+            schema:
+              type: integer
+              format: int64
+        requestBody:
+          content:
+            application/x-www-form-urlencoded:
+              schema:
+                type: object
+                properties:
+                  name:
+                    description: Updated name of the pet
+                    type: string
+                  status:
+                    description: Updated status of the pet
+                    type: string
+        responses:
+          "405":
+            description: Invalid input
+      delete:
+        tags:
+          - pet
+        summary: Deletes a pet
+        description: ""
+        operationId: deletePet
+        parameters:
+          - name: api_key
+            in: header
+            required: false
+            schema:
+              type: string
+          - name: petId
+            in: path
+            description: Pet id to delete
+            required: true
+            schema:
+              type: integer
+              format: int64
+        responses:
+          "400":
+            description: Invalid ID supplied
+          "404":
+            description: Pet not found
+    /store/inventory:
+      get:
+        tags:
+          - store
+        summary: Returns pet inventories by status
+        description: Returns a map of status codes to quantities
+        operationId: getInventory
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/json:
+                schema:
+                  type: object
+                  additionalProperties:
+                    type: integer
+                    format: int32
+    /store/order:
+      post:
+        tags:
+          - store
+        summary: Place an order for a pet
+        description: ""
+        operationId: placeOrder
+        requestBody:
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Order"
+          description: order placed for purchasing the pet
+          required: true
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/xml:
+                schema:
+                  $ref: "#/components/schemas/Order"
+              application/json:
+                schema:
+                  $ref: "#/components/schemas/Order"
+          "400":
+            description: Invalid Order
+    "/store/order/{orderId}":
+      get:
+        tags:
+          - store
+        summary: Find purchase order by ID
+        description: For valid response try integer IDs with value >= 1 and <= 10. Other
+          values will generated exceptions
+        operationId: getOrderById
+        parameters:
+          - name: orderId
+            in: path
+            description: ID of pet that needs to be fetched
+            required: true
+            schema:
+              type: integer
+              format: int64
+              minimum: 1
+              maximum: 10
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/xml:
+                schema:
+                  $ref: "#/components/schemas/Order"
+              application/json:
+                schema:
+                  $ref: "#/components/schemas/Order"
+          "400":
+            description: Invalid ID supplied
+          "404":
+            description: Order not found
+      delete:
+        tags:
+          - store
+        summary: Delete purchase order by ID
+        description: For valid response try integer IDs with positive integer value. Negative
+          or non-integer values will generate API errors
+        operationId: deleteOrder
+        parameters:
+          - name: orderId
+            in: path
+            description: ID of the order that needs to be deleted
+            required: true
+            schema:
+              type: integer
+              format: int64
+              minimum: 1
+        responses:
+          "400":
+            description: Invalid ID supplied
+          "404":
+            description: Order not found
+    /user:
+      post:
+        tags:
+          - user
+        summary: Create user
+        description: This can only be done by the logged in user.
+        operationId: createUser
+        requestBody:
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+          description: Created user object
+          required: true
+        responses:
+          default:
+            description: successful operation
+    /user/createWithArray:
+      post:
+        tags:
+          - user
+        summary: Creates list of users with given input array
+        description: ""
+        operationId: createUsersWithArrayInput
+        requestBody:
+          $ref: "#/components/requestBodies/UserArray"
+        responses:
+          default:
+            description: successful operation
+    /user/createWithList:
+      post:
+        tags:
+          - user
+        summary: Creates list of users with given input array
+        description: ""
+        operationId: createUsersWithListInput
+        requestBody:
+          $ref: "#/components/requestBodies/UserArray"
+        responses:
+          default:
+            description: successful operation
+    /user/login:
+      get:
+        tags:
+          - user
+        summary: Logs user into the system
+        description: ""
+        operationId: loginUser
+        parameters:
+          - name: username
+            in: query
+            description: The user name for login
+            required: true
+            schema:
+              type: string
+          - name: password
+            in: query
+            description: The password for login in clear text
+            required: true
+            schema:
+              type: string
+        responses:
+          "200":
+            description: successful operation
+            headers:
+              X-Rate-Limit:
+                description: calls per hour allowed by the user
+                schema:
+                  type: integer
+                  format: int32
+              X-Expires-After:
+                description: date in UTC when token expires
+                schema:
+                  type: string
+                  format: date-time
+            content:
+              application/xml:
+                schema:
+                  type: string
+              application/json:
+                schema:
+                  type: string
+          "400":
+            description: Invalid username/password supplied
+    /user/logout:
+      get:
+        tags:
+          - user
+        summary: Logs out current logged in user session
+        description: ""
+        operationId: logoutUser
+        responses:
+          default:
+            description: successful operation
+    "/user/{username}":
+      get:
+        tags:
+          - user
+        summary: Get user by user name
+        description: ""
+        operationId: getUserByName
+        parameters:
+          - name: username
+            in: path
+            description: "The name that needs to be fetched. Use user1 for testing. "
+            required: true
+            schema:
+              type: string
+        responses:
+          "200":
+            description: successful operation
+            content:
+              application/xml:
+                schema:
+                  $ref: "#/components/schemas/User"
+              application/json:
+                schema:
+                  $ref: "#/components/schemas/User"
+          "400":
+            description: Invalid username supplied
+          "404":
+            description: User not found
+      put:
+        tags:
+          - user
+        summary: Updated user
+        description: This can only be done by the logged in user.
+        operationId: updateUser
+        parameters:
+          - name: username
+            in: path
+            description: name that need to be updated
+            required: true
+            schema:
+              type: string
+        requestBody:
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+          description: Updated user object
+          required: true
+        responses:
+          "400":
+            description: Invalid user supplied
+          "404":
+            description: User not found
+      delete:
+        tags:
+          - user
+        summary: Delete user
+        description: This can only be done by the logged in user.
+        operationId: deleteUser
+        parameters:
+          - name: username
+            in: path
+            description: The name that needs to be deleted
+            required: true
+            schema:
+              type: string
+        responses:
+          "400":
+            description: Invalid username supplied
+          "404":
+            description: User not found
+  externalDocs:
+    description: Find out more about Swagger
+    url: http://swagger.io
+  servers:
+    - url: https://petstore.swagger.io/v2
+  components:
+    requestBodies:
+      UserArray:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: "#/components/schemas/User"
+        description: List of user object
+        required: true
+      Pet:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Pet"
+          application/xml:
+            schema:
+              $ref: "#/components/schemas/Pet"
+        description: Pet object that needs to be added to the store
+        required: true
+    schemas:
+      Order:
+        type: object
+        properties:
+          id:
+            type: integer
+            format: int64
+          petId:
+            type: integer
+            format: int64
+          quantity:
+            type: integer
+            format: int32
+          shipDate:
+            type: string
+            format: date-time
+          status:
+            type: string
+            description: Order Status
+            enum:
+              - placed
+              - approved
+              - delivered
+          complete:
+            type: boolean
+            default: false
+        xml:
+          name: Order
+      User:
+        type: object
+        properties:
+          id:
+            type: integer
+            format: int64
+          username:
+            type: string
+          firstName:
+            type: string
+          lastName:
+            type: string
+          email:
+            type: string
+          password:
+            type: string
+          phone:
+            type: string
+          userStatus:
+            type: integer
+            format: int32
+            description: User Status
+        xml:
+          name: User
+      Category:
+        type: object
+        properties:
+          id:
+            type: integer
+            format: int64
+          name:
+            type: string
+        xml:
+          name: Category
+      Tag:
+        type: object
+        properties:
+          id:
+            type: integer
+            format: int64
+          name:
+            type: string
+        xml:
+          name: Tag
+      Pet:
+        type: object
+        required:
+          - name
+          - photoUrls
+        properties:
+          id:
+            type: integer
+            format: int64
+          category:
+            $ref: "#/components/schemas/Category"
+          name:
+            type: string
+            example: doggie
+          photoUrls:
+            type: array
+            xml:
+              name: photoUrl
+              wrapped: true
+            items:
+              type: string
+          tags:
+            type: array
+            xml:
+              name: tag
+              wrapped: true
+            items:
+              $ref: "#/components/schemas/Tag"
+          status:
+            type: string
+            description: pet status in the store
+            enum:
+              - available
+              - pending
+              - sold
+        xml:
+          name: Pet
+      ApiResponse:
+        type: object
+        properties:
+          code:
+            type: integer
+            format: int32
+          type:
+            type: string
+          message:
+            type: string
 contentType: yaml
