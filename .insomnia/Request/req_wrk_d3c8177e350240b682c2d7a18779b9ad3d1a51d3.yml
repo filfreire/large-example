@@ -1,0 +1,21 @@
+_id: req_wrk_d3c8177e350240b682c2d7a18779b9ad3d1a51d3
+type: Request
+parentId: fld_wrk_d3c8177e350240b682c2d7a18779b9ad1b034c38
+modified: 1677748820996
+created: 1677748820996
+url: "{{ base_url }}/pet/{{ petId }}"
+name: Find pet by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677748820996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

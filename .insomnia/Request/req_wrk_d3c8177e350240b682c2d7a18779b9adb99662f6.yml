@@ -1,0 +1,43 @@
+_id: req_wrk_d3c8177e350240b682c2d7a18779b9adb99662f6
+type: Request
+parentId: fld_wrk_d3c8177e350240b682c2d7a18779b9ad1b034c38
+modified: 1677748821057
+created: 1677748821057
+url: "{{ base_url }}/pet426"
+name: Add a new pet to the store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1677748821057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
